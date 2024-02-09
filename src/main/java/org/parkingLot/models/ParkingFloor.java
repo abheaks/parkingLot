@@ -1,0 +1,13 @@
+package org.parkingLot.models;
+
+import lombok.Getter;
+import lombok.Setter;
+
+import java.util.List;
+
+@Setter
+@Getter
+public class ParkingFloor {
+    private int floorNumber;
+    private List<ParkingSpot> parkingSpotsList;
+}
